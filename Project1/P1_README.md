@@ -23,6 +23,5 @@ Your hard work on this project shows! Great job team, I liked how the team tabul
 
 ## Project 1 Final Update:
 Our final files are labeled titled "P1_Part1", "Project1_Part1", "Project1_Part2", "P1_Part2_Option1", and "P1_Part2_Option2". Additionally, they have been committed with the message "Project 1 Final"
-The numbers behind these files will need to be removed in order for the files to run properly, as Matlab has a problem with this naming convention but we were unable to figure out how to change the names
 After locating these files, open them and run the code
 After waiting for the plots to generate, the data will be presented
