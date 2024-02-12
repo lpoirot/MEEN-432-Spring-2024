@@ -21,7 +21,8 @@ Allow for a few seconds to let the graphs fit to the full screen size
 ## Week 2 Feedback (5/5)
 Your hard work on this project shows! Great job team, I liked how the team tabulated each simulation case and output it to an excel file. I only have one note for you guys regarding part 1 and that is that the plots with Time Step in the x-axis (error vs timestep & cputime vs timestep) only need the ODE1 and ODE4 solvers and not the variable time steps. Again, kuddos on the loading screen and excel sheet. Now your team should be looking into Part 2. For part 2, the team will need to create different simulink models for the 3 options on how to connect System 2 to System 1. I would suggest copying the model you have now for Part 1 and modifying it for the different options. Once the entire project is complete, makes sure to commit all Part 1 and Part 2 files with the commit message "Project 1 Final" 
 
-Project 1 Week 3 Update (final):
-Our final files are labeled "" and "". Additionally, they have been committed with the message "Project 1 Final"
+## Project 1 Final Update:
+Our final files are labeled titled "P1_Part1", "Project1_Part1", "Project1_Part2", "P1_Part2_Option1", and "P1_Part2_Option2". Additionally, they have been committed with the message "Project 1 Final"
+The numbers behind these files will need to be removed in order for the files to run properly, as Matlab has a problem with this naming convention but we were unable to figure out how to change the names
 After locating these files, open them and run the code
 After waiting for the plots to generate, the data will be presented
