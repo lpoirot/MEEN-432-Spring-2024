@@ -25,3 +25,6 @@ Your hard work on this project shows! Great job team, I liked how the team tabul
 Our final files are labeled titled "P1_Part1", "Project1_Part1", "Project1_Part2", "P1_Part2_Option1", and "P1_Part2_Option2". Additionally, they have been committed with the message "Project 1 Final".
 After locating these files, open them and run the code.
 After waiting for the plots to generate, the data will be presented.
+
+## Final Week Feedback
+Great Job team! I have no feedback
