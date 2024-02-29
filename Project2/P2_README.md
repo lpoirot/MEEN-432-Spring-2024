@@ -24,3 +24,6 @@ Work done:
 4. Adjusted parameters to ensure fastest lap time (delta equation and sped up the car on straight aways and slowed it down on curves).
 5. Integrated the Simulink file with the P2 week 1 code to plot the results to visually display the model.
 6. Added in prompts and an input feature for the user.
+
+## Week 2 Feedback (5/5)
+Good Job Team 19! This team hit all the points that I wanted to make about the final submission as you included the animation and raceStat function so kuddos! I really enjoyed the user input of how many laps that was cool! The one thing I would suggest about the user input is to use the response to determine the what the simtime should be instead of using it as the loop index. It seems that your model is able to accomplish two laps in 132 seconds, so if a user inputs 6 laps, you should adjust the simtime to accomplish those 6 laps (396 seconds) that way the raceStat function is properly displaying the correct number of loops.
