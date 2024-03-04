@@ -27,3 +27,18 @@ Work done:
 
 ## Week 2 Feedback (5/5)
 Good Job Team 19! This team hit all the points that I wanted to make about the final submission as you included the animation and raceStat function so kuddos! I really enjoyed the user input of how many laps that was cool! The one thing I would suggest about the user input is to use the response to determine the what the simtime should be instead of using it as the loop index. It seems that your model is able to accomplish two laps in 132 seconds, so if a user inputs 6 laps, you should adjust the simtime to accomplish those 6 laps (396 seconds) that way the raceStat function is properly displaying the correct number of loops.
+
+# Project 2 Week 3 Update
+Instructions for running:
+1. Begin by downloading all files in the project 2 folder.
+2. Run the initialization file "init" first.
+3. After, run the file labeled "P2_Week3_Update".
+4. After entering the number of desired laps, the code will produce the car's speed while its driving by plotting it.
+
+Work done:
+1. Changed the outputted time variable to be the simtime for each lap from the simulink (previously, it was a recorded real life time for each lap).
+
+Summary of Contributions (Because we are wrapping up a project this week, we decided to not submit each team member's contributions as seperate files as our matlab/simulink arcitecture is not currently built like this; however, we will do this going forward in future project, and we have included a summary of each member's contributions below):
+- Luke Rehfuss: Helped with plotting the track and track/car visuals, created user prompts and input retrieval, determined the delta_f variable for steering around the track, and helped with various coding/simulation errors
+- Luke Poirot: Created a way for the car to rotate around the track, and developed ways to keep the car on the loop after the first turn, led the submissions for the team to the github, and helped with various coding/simulation errors
+- Matthew Valtierra: Developed the physical track for the car to drive around, collected the data from the lateral dynamic model for outputting to the track plot and analyzing in the raceStat.m file, and helped with various coding/simulation errors
