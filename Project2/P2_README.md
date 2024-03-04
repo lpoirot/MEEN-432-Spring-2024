@@ -41,5 +41,5 @@ Work done:
 Summary of Contributions:
 Because we are wrapping up a project this week, we decided to not submit each team member's contributions as seperate files as our matlab/simulink arcitecture is not currently built like this; however, we will do this going forward in future project, and we have included a summary of each member's contributions below
 - Luke Rehfuss: Helped with plotting the track and track/car visuals, created user prompts and input retrieval, determined the delta_f variable for steering around the track, and helped with various coding/simulation errors
-- Luke Poirot: Created a way for the car to rotate around the track, and developed ways to keep the car on the loop after the first turn, led the submissions for the team to the github, and helped with various coding/simulation errors
+- Luke Poirot: Created a way for the car to rotate around the track, developed ways to keep the car on the loop after the first turn, led the submissions for the team to the github, and helped with various coding/simulation errors
 - Matthew Valtierra: Developed the physical track for the car to drive around, collected the data from the lateral dynamic model for outputting to the track plot and analyzing in the raceStat.m file, and helped with various coding/simulation errors
