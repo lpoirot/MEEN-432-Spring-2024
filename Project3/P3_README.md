@@ -7,7 +7,8 @@ Instructions for Running Week 1:
 1. Download the files from the week 1 folder
 2. Run init.m
 3. Run initDriveCycle.m
-4. Run p3_runsim.m
+4. Run initDriveCycleHighway.m
+5. Run p3_runsim.m
 
 Work Done Week 1:
 1. Imported demo code for init.m, initDriveCycle.m, and p3_runsim.m
@@ -24,8 +25,9 @@ Instructions for Running Week 2:
 2. Download the files from the week 2 folder
 3. Run init.m
 4. Run initDriveCycle.m
-5. Run p3_runsim.m
+5. Run initDriveCycleHighway.m
 6. Run P3init.m
+7. Run p3_runsim.m
 
 Work Done Week 2:
 1. Used code from week 1 and imported demo code for P3init.m
