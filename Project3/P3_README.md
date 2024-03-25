@@ -9,7 +9,7 @@ Instructions for Running Week 1:
 3. Run initDriveCycle.m
 4. Run p3_runsim.m
 
-# Work Done Week 1:
+Work Done Week 1:
 1. Imported demo code for init.m, initDriveCycle.m, and p3_runsim.m
 2. Extended the Urban drive cycle test to contain the entire data set and simulated the data with our model
 3. Simulated our model on the Highway drive cycle data
