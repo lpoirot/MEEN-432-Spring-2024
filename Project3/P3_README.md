@@ -34,3 +34,6 @@ Work Done Week 2:
 2. In P3init.m, removed the commenting out of the plotting code for electric motor/transmission data (contour plot)
 3. Outputted the angular velocity and torque from the Simulink model
 4. Added in a calculation to predict the energy consumed by the vehicle when driving on the two EPA cycles
+
+## Week 1/2 Feedback (5/5)
+ good job! Looking further into Project 3, I would advise the team to do the following: 1) In the driver subsystem, start adding/developing logic for regen braking. 2) In the braking subsystem, there are more things that needto be added regarding the logic of how the brake torque/brake force is calculated. I would suggest looking at the long dynamics lecture and  taking assumptions to simplify the calculations for the brake torque but I advise to utilize some of the braking logic (locked and unlocked) 3) Start developing an Electric Motor Drive subsystem that has the components needed for the electric motor (battery, inverter, electric motor) and develop the logic that is needed to calculate the motor torque. The team should also add a Drive subsystem that takes in the outputs from the Electric Motor Drive Subsystem and multiplies the outputs by some Final Drive Gear Ratio (FDG) which will replace the current powertrain block. 
