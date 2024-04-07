@@ -37,3 +37,22 @@ Work Done Week 2:
 
 ## Week 1/2 Feedback (5/5)
  good job! Looking further into Project 3, I would advise the team to do the following: 1) In the driver subsystem, start adding/developing logic for regen braking. 2) In the braking subsystem, there are more things that needto be added regarding the logic of how the brake torque/brake force is calculated. I would suggest looking at the long dynamics lecture and  taking assumptions to simplify the calculations for the brake torque but I advise to utilize some of the braking logic (locked and unlocked) 3) Start developing an Electric Motor Drive subsystem that has the components needed for the electric motor (battery, inverter, electric motor) and develop the logic that is needed to calculate the motor torque. The team should also add a Drive subsystem that takes in the outputs from the Electric Motor Drive Subsystem and multiplies the outputs by some Final Drive Gear Ratio (FDG) which will replace the current powertrain block. 
+
+ # Project 3 Week 3 Update
+ Instructions for Running Week 3:
+ 1. Open Matlab and Simulink
+ 2. Delete the files downloaded from the week 1 and 2 folder (we do not want the upcoming downloads to save as new names)
+ 3. Download the files from the week 3 folder and open each of the matlab and simulink files
+ 5. Run init.m
+ 6. Run initDriveCycle.m
+ 7. Run Finalinit.m
+ 8. Run p3_runsim.m
+
+Work Done Week 3:
+1. Used code from week 2 and imported the Finalinit.m demo code
+2. Implemented an electric motor drive block that includes the electric motor subsystem and the battery subsystem
+3. Implemented the electric motor subsystem
+4. Implemented the battery subsystem
+5. Updated the rest of the simulation for both urban and highway to work with the new electric motor drive block
+6. Changed the powertrain block to a drive block and added additional functionalities
+7. Organized the simulink models for clarity and removed unnecessary files from the submission
