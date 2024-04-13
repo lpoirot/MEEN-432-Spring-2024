@@ -56,3 +56,23 @@ Work Done Week 3:
 5. Updated the rest of the simulation for both urban and highway to work with the new electric motor drive block
 6. Changed the powertrain block to a drive block and added additional functionalities
 7. Organized the simulink models for clarity and removed unnecessary files from the submission
+
+## Final Submission Feedback (83/85)
+In this feedback I will be going through each of the main components of the Simulink model and provide any corrections that should be made.
+1) Drive Schedule: No comment
+2) Driver Model: I noticed that regen braking was not utilized so I will go over how you want to implement that logic into the driver model.
+- Essentially for regen braking, you want to take a small percentage (~10%) of your total brake%cmd and add it to the throttle%cmd, then you pass the rest of the brake% as friction brakes (FBPP(%))
+- This can be done by adding two gain blocks and splitting the total brake%cmd coming from the MATLAB function block, one gain block will be 0.1 and the other 0.9, and you just need to make sure to add the 0.1*BPP to the throttle%cmd.
+3) Battery: I only have one comment for this system
+- The team did the right thing by dividing the Total battery capacity by the number of cells in parallel, but you guys forgot convert the capacity units from Amp-hr to Amp-s, this is an easy fix though just make sure to change this for the future.
+4) Electric Motor: No comments
+5) Transmission: No comments
+6) Wheel Model: No comments
+7) Vehicle Model: No comments
+8) Brake Model: There are a few things missing from the brake logic that I want to mention real quick. The brake has two states Locked and Unlocked and we want to try to replicate that here in the brake logic
+- The brake is considered to be in the Locked state when the brake%cmd == 0, so Tb = -Tw (or Tw, depends on the sign of brake%cmd)
+- The brake is considered to be in the Unlocked state when brake%cmd does not == 0, so Tb = - brake%cmd * Nb,max * (Ww/(abs(Ww) + 0.001)), where Nbmax is the calibratable gain value 10000, and Ww is the angular velocity of the wheel (might be positive, again depends on sign of brake%cmd)
+
+The vehicle was still able to follow the drive cycles so good job on that! Just make sure to make the changes that I mentioned above so that Project 4 runs smoothly.
+
+
