@@ -9,6 +9,7 @@ Instructions for Running Project 4:
 3. Run p4sim.m to plot the driving trail
 4. Run P4_V4.slx to ensure x and y coordinates look correct
 5. Run FinalRace.m to receive all of the desired data
+6. The simulation will take several minutes to run - I was not able to optimize it and make it more efficient
 
 The regen breaking violation will be triggered. 
 I was not able to figure out the gain that should go to the APP% such that the regen breaking violation is not passed.
