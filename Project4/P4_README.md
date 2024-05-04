@@ -7,7 +7,7 @@ Instructions for Running Project 4:
 1. Download all files from the Project4 folder
 2. Run P4init.m
 3. Run p4sim.m to plot the driving trail
-4. Run P4_V4.slx to ensure x and y coordinates look correct
+4. Run P4_V4.slx and check the plot to see if the x and y coordinates look correct
 5. Run FinalRace.m to receive all of the desired data
 6. The simulation will take several minutes to run - I was not able to optimize it and make it more efficient
 
